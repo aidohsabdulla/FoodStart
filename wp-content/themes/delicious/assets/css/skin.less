@@ -1,0 +1,324 @@
+/*!
+ * Theme v1.0.0 
+ * Copyright 2015-2016 Theemon.com
+ */
+@skinColor: #eea03a; //Change here your theme Color
+@primaryFont: 'Montserrat', sans-serif;
+
+.transition_effect{
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+//TEXT COLOR
+.offer-block-2 span , .news-date , .blog-item-info .post-categories a , .inner-related-info span , .nav > li.current_page_item > a:hover , .footer .textwidget strong  , .nav > li.current_page_item > a , .nav li a:hover , .readmore-link , .recipe-content-block .time-duration , .testimonial-rating.star-rating span , .testimonial-rating.star-rating:before , .menu-item-one .price{
+   color:@skinColor !important; .transition_effect;
+}
+.news-social a:hover ,.social-links a  {
+  color:lighten(@skinColor ,6%) !important ; .transition_effect;
+}
+a,.btn,input[type=submit]{
+  .transition_effect;
+}
+a:hover,.header-2 .cart-btn:hover i, .header-2 .cart-btn:hover span {
+  .transition_effect;
+  color:@skinColor;
+}
+//BACKGROUND COLOR
+.widget_search input[type="submit"] , .blog-underline:before , .headings-group > li > a:after , .rev_slider_wrapper .rev-btn , .mc4wp-form .mc4wp-form-fields input[type="submit"]  , .reservation-btn , .news-block-image:hover .news-date, .news-information:hover .news-date, .subscribe-form button:hover, .add-cart:hover, .add_to_cart_button:hover, .comment-form .comment-block li button:hover, .contact-form .comment-submit:hover, .register-now-form input[type="submit"]:hover, .pop-up-box input[type="submit"]:hover, .cart-proceed:hover, .banner #slider1 .banner-btn a:hover, .check-it:hover, .check-offer:hover, .cart-form input[type="submit"]:hover, .shopping-btn a:hover, .login-account-form input[type="submit"]:hover , .pagination li.active a{
+  background-color:@skinColor !important; .transition_effect;
+}
+
+//BORDER
+.banner #slider1 .banner-btn a:hover {
+  border: 2px solid @skinColor !important; .transition_effect;
+}
+.check-it:hover, .check-offer:hover, .cart-form input[type="submit"]:hover, .shopping-btn a:hover, .login-account-form input[type="submit"]:hover, .news-block-image:hover .news-date, .news-information:hover .news-date, .subscribe-form button:hover {
+  border: 1px solid @skinColor !important; .transition_effect;
+}
+// svg Icon color
+svg path{
+    fill:@skinColor; .transition_effect;
+}
+.recipe-content-block h5:hover a,
+.menu-text h5:hover a,
+.news-text h5:hover a,
+.news-text strong.delicious-cat:hover a,
+.menu-text-2 h5:hover a,
+a.site-info-text:hover,
+.woocommerce ul.products li.product h3:hover,
+.keywords-list a:hover,
+.related-recipe-title a:hover,
+.blog-underline  a:hover,
+.widget_archive li a:hover,
+.chef-related-info .related-head-info h3:hover,
+.footer-nav .footer-border li a:hover,
+.primary-footer .footer-content .footer-border li a:hover {
+  .transition_effect;
+  color:lighten(@skinColor,5%);
+}
+.woocommerce-currency-switcher-form a.dd-selected:hover,
+.widget_recent_comments li > span a:hover {
+  color:@skinColor;
+}
+
+table.shop_table.cart td.product-name a:hover,
+.widget_recent_comments .footer-border li:hover > span a {
+  color:@skinColor;
+}
+.cart-collaterals .wc-proceed-to-checkout a.checkout-button.button:hover{
+  color:#fff;
+   border-color:@skinColor;
+}
+.cart-collaterals .wc-proceed-to-checkout a.checkout-button.button:hover,
+.wrapper-not_found .banner-not-found {
+   background-color:@skinColor;
+}
+.woocommerce .widget_price_filter .price_slider_amount .button:hover {
+   background-color:@skinColor;
+} 
+  .woocommerce .widget-woocommerce-currency-converter .woocs_converter_shortcode_button:hover,
+ .woocommerce .widget_shopping_cart .widget_shopping_cart_content .buttons .wc-forward:hover {
+   background-color:@skinColor;
+ }
+.woocommerce-checkout-payment .place-order input.button.alt:hover,
+ .checkout_coupon input.button:hover {
+   background-color:@skinColor;
+   border-color:@skinColor;
+ }
+ .woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+ .woocommerce input.button.alt:hover {
+      background-color:@skinColor;
+}
+.woocommerce.compare-button a:hover:before,
+ .woocommerce.compare-button a:hover:before {
+   border-color:@skinColor;
+ }
+ .yith-wcwl-add-button a:hover:before, .yith-wcwl-add-button a:hover:before {
+   border-color:@skinColor;
+ }
+ .single .product .compare.button:hover:before{
+   border-color:@skinColor;
+   background-color:@skinColor;
+ }
+ .single .product .summary .product_meta .posted_in a:hover, 
+ .single .product .summary .product_meta .tagged_as a:hover {
+   color:@skinColor;
+ }
+ .about-post table.my_account_orders .order-actions  .button.view:hover {
+   background-color:@skinColor;
+ }
+  
+ .widget_categories li:hover:before, .widget_categories li:hover > a {
+   color:@skinColor;
+ }
+ 
+ .woocommerce-review-link {
+   color:@skinColor;
+ }
+ .addresses .address .edit:hover {
+   background-color:@skinColor;
+ }
+ .product .variations_form .woocommerce-variation-add-to-cart .single_add_to_cart_button.button:hover {
+   background-color:@skinColor;
+ }
+ .single .product .summary .price del  {
+   color:@skinColor;
+ }
+ 
+ .woocommerce .widget_price_filter .ui-slider-horizontal.price_slider.ui-widget-content {
+   background-color:@skinColor;
+ }
+ /* support */
+#buddypress div.activity-meta a:hover { 
+  background-color:@skinColor;
+  border-color:@skinColor;
+  }
+  #buddypress .activity-header a:hover,
+  #buddypress .activity-header a.activity-time-since {
+    color:@skinColor;
+  }
+  #buddypress div.item-list-tabs ul li.current a, #buddypress div.item-list-tabs ul li.selected a {
+    background-color:@skinColor;
+  }
+  #buddypress div.item-list-tabs ul li a:hover, #buddypress div.item-list-tabs ul li a:hover {
+    background-color:@skinColor;
+  }
+  #buddypress span.activity {
+    color:@skinColor;
+  }
+  #buddypress ul.button-nav li a {
+    border-color:@skinColor;
+    color:@skinColor;
+  }
+  #buddypress ul.button-nav li.current a,
+  #buddypress ul.button-nav li a:hover,
+  #buddypress .standard-form div.submit input:hover {
+    border-color:@skinColor;
+    background-color:@skinColor;
+    color:#fff;
+  }
+  #buddypress ul.item-list li div.item-title a:hover {
+    color:@skinColor;
+  }
+  #buddypress ul.item-list li div.item-title span.activity-read-more a:hover {
+    background-color:@skinColor;
+  }
+  #buddypress #whats-new-submit input[type=submit]:hover {
+    background-color:@skinColor;
+    border-color:@skinColor;
+  }
+  .gform_wrapper .gform_page_footer .button.gform_button:hover,
+.gform_wrapper .gform_footer input.button:hover, .gform_wrapper .gform_footer input[type=submit]:hover {
+    background-color:@skinColor;
+    border-color:@skinColor;
+}
+
+.middle-header-left input[type="text"], .item-name, .block-heading h2, .footer-content h4,
+.information-block .info-item .information, .news-text .news-text-heading, .product-detail h3,
+.product-text p, .product-content .tab-content, .summary-block .product-name, .summary-block .product-name, 
+.search-portion .search-form input, .post-content li .post-text, .post-details h3.post-title, .blog-news,
+.blog-content, .author-section .media-body .author-name em, .author-section .media-body p, .comment-section .required-field,
+.more-news, .banner-text .img-text, .welcome-block h2, .welcome-block h2 em, .collection-links figure .collection-text,
+.story-text h2, .sale-offer .offer-text, .banner #slider1 .banner-text, .banner #slider1 .banner-btn a,
+.banner-section .read-story, .testimonial-block .author-text, .testimonial-block .author-text, .subscribe-content,
+.subscribe-form input[type="text"] , .subscribe-form button, 
+blockquote p, q p,.full-width-block .about-post blockquote p, .widget_search input[type="text"], .widget_search input[type="submit"],
+ ul.products li.product h3, .wrapper-not_found .searchform input[type=text],.wrapper-not_found .searchform input[type=submit],
+ .product h1.product_title, .single .product .summary p, .single .product .summary .product_meta .posted_in a,
+.single .product .summary .product_meta .tagged_as a, .single .product .related products h2, .single .product .woocommerce-tabs .panel h2,
+.single .product .woocommerce-tabs .panel p, .single .product .woocommerce-tabs .panel li, #buddypress .activity-header a,
+#buddypress span.activity,.navbar-nav li a,h3.common-heading,.header-reservation-btn {
+    font-family: @primaryFont; 
+}
+
+.main-banner-text .banner-nav li:after, .categories-section li span, .categories-section li a, .main-list li a ,
+.range-price > span, .categories-filtering h4, .categories-shop-pagging li a, .cart-item > h3, .custom-table th,.cart-description > span,
+.cart-price, .shopping-btn a, .cart-form > h3, .cart-form .sbSelector, .cart-form .sbOptions a, .cart-form input[type = "text"],
+.cart-form input[type = "submit"], .sub-total, .grand-total, .cart-proceed, .login-content h3, .login-account-form input, .forgot-pswrd > a, 
+.register-now-form input, .contact-info h4, .address, .query h3, .pop-up-box h2, .pop-up-box input[type = "text"], .pop-up-box input[type = "submit"] {
+    font-family: @primaryFont;
+}
+
+.woocommerce .widget_top_rated_products .product_list_widget .amount, .woocommerce .widget_shopping_cart .amount{
+  color:@skinColor;
+}
+
+
+.audioplayer {
+  background-color:@skinColor;
+}
+.zm_alr_submit_container input[type="submit"]:hover,.zm_alr_ul_container li a:hover {
+  background-color:@skinColor;
+  border-color:@skinColor;
+}
+.audioplayer:not(.audioplayer-mini) .audioplayer-playpause {
+  border-color:darken(@skinColor,30%);
+}
+.audioplayer-bar {
+  background-color:darken(@skinColor,10%);
+}
+.audioplayer-bar-loaded {
+     background-color:lighten(@skinColor,10%);
+}
+.audioplayer-bar-played {
+  background-color:lighten(@skinColor,25%);
+}
+.audioplayer-playpause:hover {
+  background-color:darken(@skinColor,10%);
+}
+.audioplayer-bar-played:before {
+  background-color:darken(@skinColor,20%);
+}
+.audioplayer > div.audioplayer-volume {
+  background-color:lighten(@skinColor,3%);
+}
+.audioplayer-volume:hover .audioplayer-volume-adjust {
+  background-color:lighten(@skinColor,4%);
+}
+.audioplayer-volume-adjust div div {
+  background-color:lighten(@skinColor,34%);
+}
+.audioplayer-volume-adjust > div {
+  background-color:darken(@skinColor,20%);
+}
+ 
+#theme_panel .theme-setting i, #theme_panel .theme-setting.shop-now span,
+.woocommerce ul.products li.product .onsale {
+    background-color:@skinColor;
+}
+.related ul.products li >a:hover h3 {
+  color:@skinColor;
+}
+.delicious-blog-layout-two .delicious-post-meta-layout-one ul li:hover span.meta-label,
+.delicious-blog-layout-two .delicious-post-meta-layout-one ul li:hover a {
+   color:@skinColor;
+}
+ul.products li.product > a:hover h3 {
+  color:@skinColor;
+}
+.delicious-shop-layout-two ul.products li.product a:hover h3 {
+  color:@skinColor;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active a,
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a:hover {
+  border-color: @skinColor;
+}
+.menu-tab-2 .nav-tabs > li.active > a, 
+.menu-tab-2 .nav-tabs > li.active > a:hover, 
+.menu-tab-2 .nav-tabs > li.active > a:focus,
+.news-blog:hover .nb-title a,
+.social-links a:hover,
+nav .cart-buttons:hover .cart-btn,
+nav .cart-buttons:hover .cart-btn .count-item,
+.chef-media .fa:hover {
+  color:@skinColor;
+  .transition_effect;
+}
+.menu-text-2 .price, .menu-item-one .price,
+.recipe-text small,
+.service-block span,
+.chocolate-earl-procedure .procedore-wrap strong,
+.small-text,
+.blog-related-slide li strong a,
+.head-chef-details,
+.blog-related-slide li strong,
+.healen-recipe-info .fa,
+.slide-next-prev-wrap ul li a,
+.history-title,
+.delicious-comment a {
+  color:@skinColor;
+  
+}
+.pagination li a:hover, .pagination li.active a, 
+.pagination li.active a:hover,
+.tagcloud a:hover,
+.sbmt-btn,
+.offer-block-2 .moto-icon,
+.search-results .post-title:before {
+  .transition_effect;
+  background:@skinColor;
+}
+.slick-current .pagination-img {
+  .transition_effect;
+  border-color: @skinColor;
+}
+body.single .product  .wc-tabs-wrapper.woocommerce-tabs ul.tabs > li > a,
+.woocommerce-tabs > li, .woocommerce-tabs > li > a,
+.tips-list li:before {
+  .transition_effect;
+  background:@skinColor;
+}
+.culsine-section-content-left ul {
+  border-color: @skinColor;
+}
+.reservation-btn:hover,
+.mc4wp-form .mc4wp-form-fields input[type="submit"]:hover {
+  .transition_effect;
+  background:lighten(@skinColor,30%) !important;
+}
